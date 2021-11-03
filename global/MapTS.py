@@ -216,7 +216,7 @@ def GetBoundary(fs3,dt,M,threshold):
     ds_imp/=tmp
     
     boundary_tmp2=SplitS(ds_imp,M,if_std=True)
-    # print('num of channels being manipulated:',num_c)
+    print('num of channels being manipulated:',num_c)
     return boundary_tmp2,num_c
 
 def GetFs(file_path):
